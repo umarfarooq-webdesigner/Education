@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c26d22cd22.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/umar.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>University Website Design</title>
+</head>
+<body>
+<!------------------------------------------ header  ---------------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!------------------------------------------ About Us Content  ---------------------------------------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatem culpa dignissimos modi ullam laudantium iure rerum deserunt fuga cum aut natus fugit sunt voluptate odit eveniet ea quisquam architecto temporibus illum obcaecati, et illo? Tempora animi, excepturi recusandae iusto exercitationem quos soluta, dolor est alias voluptate accusantium architecto? Ad.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+<!------------------------------------------ footer  ---------------------------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor quidem earum tenetur impedit suscipit odio ducimus quos saepe? <br> Facilis, odit voluptate rerum reprehenderit voluptates quo sequi aut omnis dolore.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+    <p>Made With <i class="fa-regular fa-heart"></i> By Umar Farooq</p>
+</section>
+<!------------------------------- Javascript for Toogle Menu  --------------------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+<!------------xxxx---------------- Javascript for Toogle Menu  -------------xxxx------------>
+</body>
+</html>
